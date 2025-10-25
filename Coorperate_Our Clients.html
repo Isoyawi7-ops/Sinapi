@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/Style.css">
+    <title>Corporate Meet Our Management</title>
+</head>
+<body>
+    <div class="page-container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./Photos/Logo Updated 2nd Iteration.png" alt="Sinapi Logo">
+            </div>
+            <div class="menu-toggle" id="mobile-menu">☰</div>
+           
+            <div class="nav-actions">   
+                <ul class="nav-links">
+
+                <li><a href="./Sinapi.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li class="dropdown">
+                    <a href="">Corporate ▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="./Coorperate_Meet our Management.html">Meet Our Management</a></li>
+                        <li><a href="./Coorperate_Our Clients.html">Meet Our Clients</a></li>
+                    </ul>
+                </li>
+                <li><a href="./Service.html">Service</a></li>
+
+                   <li class="dropdown"><a href="">News & Media ▾</a>
+                 <ul class="dropdown-content">
+                        <li><a href="./News.html">News</a></li>
+                        <li><a href="./Media.html">Media</a></li>
+                    </ul>
+               </li>
+
+                <li><a href="./Contacts.html">Contact</a></li>
+            </ul>
+           
+
+  <!-- Search box (desktop only) -->
+        <div class="search-box desktop-only">
+          <input type="text" id="searchInput" placeholder="Search..." />
+          <button type="button" id="searchBtn">Go</button>
+          <div id="searchResults" class="search-results"></div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile search box below nav -->
+    <div class="search-box mobile-only">
+      <input type="text" id="searchInputMobile" placeholder="Search..." />
+      <button type="button" id="searchBtnMobile">Go</button>
+      <div id="searchResultsMobile" class="search-results"></div>
+    </div>
+            
+
+         <!-- 🟡 Add Chatbot Here Under Search -->
+         <div id="chatbot-toggle">💬</div>
+        
+         <div id="chatbot-container" class="chatbot-hidden">
+             <div id="chatbot-header">Ask Me Anything! ❓</div>
+             <div id="chatbot-messages"></div>
+             <input type="text" id="chatbot-input" placeholder="Type your question..." />
+         </div>
+         
+         <!-- Existing script -->
+         <script src="./javascr/chatbot.js"></script>
+         
+  <!-- WEBSITE BACKGROUND IMAGE -->
+         <div class="fullscreen-image">
+             <img src="./Background Img/Background Image IMG 4.jpg" alt="Homepage Background">
+         </div>
+<!-- END OF WEBSITE BACKGROUND IMAGE -->
+       
+ 
+ 
+
+        <main class="client-main">
+            <h1 class="title">Our Partners</h1>
+        
+            <div class="client-list-glass">
+                <ul class="client-logos client-logo-img">
+                    <li><strong>National Housing Corporation (NHC):</strong><br><img src="./Photos/Clients logo/National Housing Coo.jpg" alt="NHC Logo"> </li><br>
+                    <li><strong>Conference of Pacific Education Ministers (CPEM):</strong><br><img src="./Photos/Clients logo/conference pacific education ministers.png" alt="CPEM Logo"></li><br>
+                    <li><strong>Department of Education:</strong><br><img src="./Photos/Clients logo/PNG_DOE_Logo.png" alt="Department of Education Logo"></li><br>
+                    <li><strong>Pacific Peoples’ Caucus:</strong><br><img src="./Photos/Clients logo/Pacific People Caucas.png" alt="Pacific Peoples Caucus Logo"></li><br>
+                    <li><strong>Ministry of Pacific Peoples:</strong><br><img src="./Photos/Clients logo/MInistry of Pacific People Final.jpg" alt="Ministry of Pacific Peoples Logo"></li>
+                </ul>
+            </div>
+
+            </div>
+        </main>
+        </div>
+        
+            <h2 class="impact-heading">Impact</h2>
+            <div class="impact-gallery">
+                <div class="impact-card" onclick="this.classList.toggle('active')">
+                    <img src="./Photos/Client Photo 1.jpg" alt="20 Projects">
+                    <div class="impact-caption">20+ PROJECTS</div>
+                </div>
+                <div class="impact-card" onclick="this.classList.toggle('active')">
+                    <img src="./Photos/Client Photo 2.jpg" alt="100% Satisfied">
+                    <div class="impact-caption">100% SATISFIED</div>
+                </div>
+                <div class="impact-card" onclick="this.classList.toggle('active')">
+                    <img src="./Photos/Client Photo 3.jpg" alt="Youth Governance">
+                    <div class="impact-caption">YOUTH / GOVERNANCE / ENGAGEMENT</div>
+                </div>
+
+               
+
+        <script src="./javascr/slide-img.js"></script>
+        <script src="./javascr/mobile-menu.js"></script>
+
+          <footer class="site-footer">
+            <p>📞 (675) 83074861</p>
+            <p>🔗 <a href="https://linktr.ee/sinapivuana" target="_blank">Visit our Linktree</a></p>
+            <p>📍 Consultants – 288 Edai Town, Boera</p>
+            <p> © SINAPI VUANA CONSULTING-2025 </p>
+        </footer>
+        </div>
+        
+        </body>
+        </html>        
